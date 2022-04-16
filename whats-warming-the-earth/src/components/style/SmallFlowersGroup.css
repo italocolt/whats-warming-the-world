@@ -1,0 +1,126 @@
+.small-flowers-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.small-flowers-group {
+  scrollbar-width: none;
+  scrollbar-color: #635F5D #635F5D;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.small-flowers-group::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.small-flowers-group::-webkit-scrollbar-track {
+  display: none;
+  background: #D1CFCD;
+}
+
+.small-flowers-group::-webkit-scrollbar-thumb {
+  display: none;
+  background-color: #8E8883;
+}
+
+.small-flowers-group::-webkit-scrollbar-thumb:hover {
+  display: none;
+  background-color: #635F5D;
+}
+
+.small-flowers-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.small-flowers-wrapper span {
+  text-align: center;
+}
+
+.small-flowers-wrapper:not(:first-child) {
+  margin-left: 5px;
+}
+
+.small-flowers-group__flowers {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-flowers-group__title {
+  padding: 0;
+}
+
+.small-flowers-group__title.lg {
+  margin: 12px 6px 9px 6px;
+}
+
+.small-flowers-group__title.md {
+  margin: 11px 6px 9px 6px;
+}
+
+.small-flowers-group__title.sm {
+  margin: 10px 6px 8px 6px;
+}
+
+.small-flowers-group__title.xs {
+  margin: 11px 6px 9px 6px;
+}
+
+.small-flowers-group__title.observed {
+  border-bottom: 1px solid #8E8883;
+}
+
+.small-flowers-group__title.natural {
+  border-bottom: 1px solid #137B80;
+}
+
+.small-flowers-group__title.human {
+  border-bottom: 1px solid #E6842A;
+}
+
+.small-flowers-group__title span:first-child {
+  padding: 1px 4px;
+  font-weight: 400;
+  color: white;
+}
+
+.small-flowers-group__title.lg span:first-child {
+  font-size: 16px;
+}
+
+.small-flowers-group__title.md span:first-child {
+  font-size: 14px;
+}
+
+.small-flowers-group__title.sm span:first-child {
+  font-size: 13px;
+}
+
+.small-flowers-group__title.xs span:first-child {
+  font-size: 11px;
+}
+
+.small-flowers-group__title span:nth-child(2) {
+  font-weight: 400;
+  color: #635F5D;
+  padding: 0 0 0 6px;
+}
+
+.small-flowers-group__title.observed span:first-child {
+  background: #8E8883;
+}
+
+.small-flowers-group__title.natural span:first-child {
+  background: #137B80;
+}
+
+.small-flowers-group__title.human span:first-child {
+  background: #E6842A;
+}

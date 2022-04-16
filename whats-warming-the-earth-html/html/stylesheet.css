@@ -1,0 +1,29 @@
+* {
+  --white: #FFFFFF;
+
+  --bg-lighter: #F5F3F2;
+  --bg-darker: #EFECEA;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at 100%, var(--bg-darker), var(--bg-lighter));
+
+  font-family: 'EB Garamond', serif;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.viz {
+  position: fixed;
+  margin: 0 48px;
+  /* width: 100%;
+  height: 100%; */
+}

@@ -1,0 +1,158 @@
+.bFlwr-wrapper {
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flower Name */
+.bFlwr-title-wrapper {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  pointer-events: none;
+}
+
+.bFlwr-title-container  {
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+
+.bFlwr-name {
+  color: #635F5D;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  text-shadow: 1px 1px 10px #8E8883, 0 0 1em #C0C0BB, 0 0 0.2em #C0C0BB;
+}
+
+.bFlwr-name.lg {
+  font-size: 24px;
+}
+
+.bFlwr-name.md {
+  font-size: 18px;
+}
+
+.bFlwr-name.sm {
+  font-size: 14px;
+}
+
+.bFlwr-name.xs {
+  font-size: 9px;
+}
+
+/* SVG ------------ */
+.bFlwrSVG {
+  width: 100%;
+  height: 100%;
+}
+
+/* Scale ---------- */
+
+.scalesG-scale {
+  stroke: none;
+  fill: #E3BA22;
+  stroke-width: 0.75;
+}
+.scalesG-scale.origin {
+  stroke-width: 2;
+}
+
+.scalesG-dot {
+  fill: #E6842A;
+}
+
+.scalesG-line {
+  stroke: #E6842A;
+}
+
+.scalesG-text {
+  fill: #E6842A;
+  text-anchor: middle;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.scalesG-text.lg {
+  font-size: 18px;
+}
+
+.scalesG-text.md {
+  font-size: 16px;
+}
+
+.scalesG-text.sm {
+  font-size: 12px;
+}
+
+.scalesG-text.xs {
+  font-size: 18px;
+}
+
+/* --- Flags --- */
+.scalesG-flag {
+  transform: rotate(45deg);
+}
+
+.scalesG-flag.natural {
+  stroke: #137B80;
+  stroke-width: 3px;
+  fill: #F5F3F2;
+}
+.scalesG-flag.human {
+  stroke: #E6842A;
+  stroke-width: 3px;
+  fill: #F5F3F2;
+}
+
+.main .scalesG-text {
+  font-size: 20px;
+}
+
+/* Petals --------- */
+.petalsG-arc {
+  opacity: 1;
+  stroke-width: 1;
+}
+
+.petal-arc {
+  pointer-events: none;
+}
+
+/* Years */
+.yearsG-arc {
+  fill: #C1BAA9;
+  opacity: 1;
+}
+
+.yearsG-label {
+  fill: #978F80;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.main .yearsG-label {
+  font-size: 20px;
+}
+
+.petal-arc text {
+}
+
+.bFlwrYearLabel {
+  fill: #978F80;
+  font-size: 14px;
+}
+
+.bFlwrTempLabel {
+  font-weight: 600;
+  font-size: 13px;
+}
